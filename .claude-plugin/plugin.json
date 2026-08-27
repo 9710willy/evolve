@@ -1,6 +1,6 @@
 {
   "name": "evolve",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Write by selection, not by prompt. Two drafts per turn, you pick one, the winner breeds two descendants until the prose sounds like you.",
   "author": {
     "name": "willy",
