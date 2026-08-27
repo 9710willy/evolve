@@ -15,8 +15,25 @@ Write by selection. Never one draft.
 3. Make them differ in strategy, not wording. See the register table for which
    axis to vary. Two paraphrases is a failed turn.
 4. Full length both times. No outlines, no "here is the gist".
-5. End with one line: `A or B? Or a line from each.`
+5. Collect the pick with the AskUserQuestion tool, never a text line. See
+   below. Long prose must never make the user scroll back up to choose.
 6. No commentary on the drafts. Do not say which you prefer. The user judges.
+
+## The pick
+
+After printing both drafts, call AskUserQuestion once:
+
+- `question`: `Which draft?`  `header`: `Draft`  `multiSelect`: false
+- Two options only. `label` names the strategy in three or four words, flat and
+  neutral: "ask first, direct", "context first, soft close". Never "stronger",
+  "better", "more polished". The label is a handle, not a verdict.
+- `description`: one line on what that draft does. Still no preference.
+- `preview`: the draft itself, so the user compares side by side without
+  scrolling. Over 30 lines? Put the opening 30 in the preview. The full text is
+  already above.
+
+The auto "Other" slot is where the user types `B but keep A's subject`. That is
+why you never spend an option on a merge.
 
 ## Register
 

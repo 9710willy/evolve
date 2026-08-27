@@ -22,8 +22,11 @@ turn 3   A2 ──> A2a ──┐           near: rhythm, verbs, cuts
                 A2b ──┘
 ```
 
-You reply `A`, `B`, or `B but keep A's opening`. Turn 1 explores. Turn 3
-refines.
+You pick from a menu, not by scrolling. The skill asks with Claude Code's
+question prompt: two options side by side, each with the draft in the preview
+pane. Pick one, or use the free-text slot for `B but keep A's opening`.
+
+Turn 1 explores. Turn 3 refines.
 
 ## Register
 
