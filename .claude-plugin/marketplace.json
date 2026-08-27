@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "evolve",
+  "description": "Write by selection. The model does not need a better prompt, it needs you to pick a winner.",
+  "owner": {
+    "name": "willy",
+    "url": "https://github.com/9710willy"
+  },
+  "plugins": [
+    {
+      "name": "evolve",
+      "description": "Two drafts per turn, you pick, the winner breeds. Converges on your voice in two or three picks.",
+      "source": "./",
+      "category": "writing"
+    }
+  ]
+}
