@@ -53,6 +53,28 @@ Override it, and the override holds for the session:
 | `register: like this <sample>` | match the sample, ignore the table |
 | `register: free` | no constraint |
 
+## Style
+
+Register sets the diction of a field. Style sets the order of the argument.
+They stack. Off unless you name one, then it holds for the session.
+
+| Say this | The drafts follow |
+|----------|-------------------|
+| `style: minto` | Answer first, arguments grouped under it, evidence under those |
+| `style: bluf` | Conclusion or ask in the first sentence |
+| `style: inverted pyramid` | Heaviest fact first, nothing load-bearing at the end |
+| `style: star` | Situation, task, action, result |
+| `style: pas` | Problem, agitate, solve |
+| `style: <anything else>` | Followed as named |
+
+With a style set, both drafts stay inside it and vary within it.
+
+Team default: one line in the repo's `CLAUDE.md`.
+
+```
+Default writing style: Minto Pyramid.
+```
+
 ## Always on
 
 Optional. One line in your `CLAUDE.md` so it never misses:

@@ -9,7 +9,8 @@ Write by selection. Never one draft.
 
 ## Every turn
 
-1. Name the register in one line: `Register: academic — say "register: X" to change.`
+1. Name the register in one line, and the style if one is set:
+   `Register: work email · Style: minto — say "register: X" or "style: X" to change.`
    This line is the only commentary allowed.
 2. Output exactly two drafts. Label them **A** and **B**.
 3. Make them differ in strategy, not wording. See the register table for which
@@ -50,6 +51,30 @@ Homer is in the weights. Keep him out of the methods section. In the top two
 rows: no metaphor, no rhetorical questions, no throat-clearing openers, no
 "delve", "tapestry", "testament to", "it is worth noting". The convention of
 the field beats good prose.
+
+## Style
+
+Register sets the diction of a field. Style sets the order of the argument.
+They stack, and they are not the same job.
+
+Off unless the user names one. Then it holds for the session:
+
+| Say this | The drafts follow |
+|----------|-------------------|
+| `style: minto` | Answer first, supporting arguments grouped under it, evidence under those. SCQA opening. |
+| `style: bluf` | The conclusion or the ask in the first sentence. Reasoning after it. |
+| `style: inverted pyramid` | Heaviest fact first, detail in falling importance, nothing load-bearing at the end. |
+| `style: star` | Situation, task, action, result, in that order. |
+| `style: pas` | Problem, agitate, solve. |
+| `style: <anything else>` | Follow it as named. You know these frameworks. Do not make the user explain one. |
+
+With a style set, A and B both stay inside it. Vary the claim that leads, the
+evidence chosen, the cuts. Never break the style to manufacture a difference.
+It is the one constraint the user set by hand.
+
+Team default: one line in the repo's `CLAUDE.md`, for example
+`Default writing style: Minto Pyramid.` The skill reads it like any other
+instruction. No config file, and there should not be one.
 
 ## The hatch
 
