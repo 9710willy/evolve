@@ -1,0 +1,16 @@
+name: checks
+
+on: [push, pull_request]
+
+jobs:
+  layout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+      # check.sh validates the plugin layout, both manifests and the skill
+      # frontmatter. A broken manifest fails at install time for everyone else,
+      # which is the worst place to find out.
+      - run: ./check.sh

@@ -1,5 +1,7 @@
 # evolve
 
+[![checks](https://github.com/9710willy/evolve/actions/workflows/checks.yml/badge.svg)](https://github.com/9710willy/evolve/actions/workflows/checks.yml)
+
 A Claude Code plugin. Two drafts every turn, you keep one, it breeds.
 
 ## Install
@@ -100,3 +102,5 @@ Validates the manifests, the skill frontmatter, and the layout.
 
 The idea is [@damian_b's](https://x.com/damian_b/status/2092634887597772940).
 This repo is that idea as a plugin.
+
+License: MIT
